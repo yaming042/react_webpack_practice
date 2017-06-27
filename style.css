@@ -1,0 +1,7 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+body, html{}
+a{text-decoration: none;}
+li{list-style: none;}
+.mainbox{margin: 0;padding: 20px;overflow: hidden;}
+.list{width: 31.33%;float: left;margin: 0 1%;border: 1px solid #ccc;box-shadow: 4px 4px 20px rgba(0,0,0,0.6);}
+.list h2{text-align: center;border-bottom: 1px solid #ccc;height: 50px;line-height: 50px;}
