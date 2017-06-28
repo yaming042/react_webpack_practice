@@ -3,11 +3,10 @@ import render from 'react-dom';
 
 class Carddetail extends Component{
 	render(){
-		var data = ['aaaaaa','bbbbbbb','cccccc','ddddddd','eeeeeeeeeee'];
-		var list = data.map((data) => {
+		var list = this.props.card.tasks.map((data) => {
 			return (
 				<tr>
-					<td colSpan="2">{data}</td>
+					<td colSpan="2">{data.id}:{data.name}</td>
 				</tr>
 			);
 		});

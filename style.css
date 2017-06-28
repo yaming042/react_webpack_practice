@@ -1,13 +1,13 @@
 *{padding: 0;margin: 0;box-sizing: border-box;}
-body, html{}
+body{background: url(http://hbfile.b0.upaiyun.com/img/home/banner/3db6fa2fb1793fb3c2a1761e637f7c6863833884ad02b) no-repeat center;}
 a{text-decoration: none;}
 li{list-style: none;}
 #react{width: 100%;max-width: 1200px;margin: 0 auto;}
 .mainbox{margin: 0;padding: 20px;overflow: hidden;}
-.list{width: 31.33%;float: left;margin: 0 1%;border: 1px solid #ccc;box-shadow: 4px 4px 20px rgba(0,0,0,0.6);}
+.list{width: 31.33%;float: left;margin: 0 1%;/*box-shadow: 4px 4px 20px rgba(0,0,0,0.6);*/padding: 0 15px;background-color: #e3e3e3;border-radius: 4px;}
 .list h2{text-align: center;border-bottom: 1px solid #ccc;height: 50px;line-height: 50px;}
-.card{padding: 0 20px 10px;}
-.card h3{border-bottom: 1px dashed #ccc;padding: 10px 0 10px 10px;}
-.timeauthor div{float: left;width: 50%;font-size: 13px;color: blue;font-weight: bold;}
+.card{padding: 0 20px 10px;margin: 10px auto;border-radius: 4px;background-color: #fff;}
+.card h3{border-bottom: 1px dashed #ccc;padding: 10px 0 10px 10px;margin-bottom: 4px;}
+.timeauthor div{float: left;width: 50%;font-size: 13px;color: blue;font-weight: bold;text-align: center;}
 .additem{display: inline-block;width: 98%;margin: 15px auto 0;border: 1px solid #ccc;color: #ccc;text-align: center;cursor: pointer;background-color: #fff;padding: 10px 0;border-radius: 2px;}
 .additem:hover{color: #000;border: 1px solid #000;}
