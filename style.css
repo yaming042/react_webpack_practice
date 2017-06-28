@@ -5,3 +5,8 @@ li{list-style: none;}
 .mainbox{margin: 0;padding: 20px;overflow: hidden;}
 .list{width: 31.33%;float: left;margin: 0 1%;border: 1px solid #ccc;box-shadow: 4px 4px 20px rgba(0,0,0,0.6);}
 .list h2{text-align: center;border-bottom: 1px solid #ccc;height: 50px;line-height: 50px;}
+.card{padding: 0 20px 10px;}
+.card h3{border-bottom: 1px dashed #ccc;padding: 10px 0 10px 10px;}
+.timeauthor div{float: left;width: 50%;font-size: 13px;color: blue;font-weight: bold;}
+.additem{display: inline-block;width: 98%;margin: 15px auto 0;border: 1px solid #ccc;color: #ccc;text-align: center;cursor: pointer;background-color: #fff;padding: 10px 0;border-radius: 2px;}
+.additem:hover{color: #000;border: 1px solid #000;}

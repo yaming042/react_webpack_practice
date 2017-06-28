@@ -8,7 +8,7 @@ class Worklist extends Component{
 		return (
 			<li className="list">
 				<h2>{this.props.title}</h2>
-				<Card></Card>
+				<Card>test</Card>
 			</li>
 		);
 	}
